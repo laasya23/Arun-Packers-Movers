@@ -82,7 +82,7 @@ const Hero = () => {
               <img 
                 src="https://images.pexels.com/photos/7464230/pexels-photo-7464230.jpeg" 
                 alt="Professional moving team with truck"
-                className="rounded-2xl shadow-2xl w-full max-w-2xl mx-auto"
+                className="rounded-2xl shadow-2xl w-full max-w-4xl mx-auto"
               />
             </div>
           </div>
