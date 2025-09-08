@@ -208,7 +208,7 @@ const QuoteForm = () => {
 
             <div className="text-center mt-6 pt-6 border-t border-gray-200">
               <p className="text-charcoal font-opensans mb-2">
-            <p className="font-opensans text-charcoal text-lg mb-6">
+                Need immediate assistance?
               </p>
               <a 
                 href="tel:+919739913248"
