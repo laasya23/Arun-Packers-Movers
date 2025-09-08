@@ -103,8 +103,8 @@ const QuoteForm = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-xl p-8 shadow-2xl">
-            <h3 className="text-2xl font-oswald font-bold text-navy mb-6 text-center">
+          <div className="bg-blue-75 border border-blue-50 p-8 rounded-xl">
+            <h3 className="text-2xl font-oswald font-bold text-navy mb-4">
               Request Your Free Quote
             </h3>
 
@@ -208,7 +208,7 @@ const QuoteForm = () => {
 
             <div className="text-center mt-6 pt-6 border-t border-gray-200">
               <p className="text-charcoal font-opensans mb-2">
-                Need immediate assistance?
+            <p className="font-opensans text-charcoal text-lg mb-6">
               </p>
               <a 
                 href="tel:+919739913248"
@@ -225,3 +225,5 @@ const QuoteForm = () => {
 };
 
 export default QuoteForm;
+  )
+}
