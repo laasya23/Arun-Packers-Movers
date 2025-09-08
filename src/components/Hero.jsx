@@ -81,7 +81,7 @@ const Hero = () => {
               <img 
                 src="https://images.pexels.com/photos/12994184/pexels-photo-12994184.jpeg" 
                 alt="Professional moving and packing services"
-                className="rounded-2xl shadow-2xl w-full max-w-4xl mx-auto"
+                className="rounded-2xl shadow-2xl w-full max-w-4xl mx-auto h-96 object-cover"
               />
             </div>
           </div>
