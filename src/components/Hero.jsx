@@ -28,15 +28,14 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-6xl font-inter font-bold text-white mb-6 leading-tight">
-              
               <span className="text-orange">Arun Packers </span>
               & Movers
-              <span className="text-orange"> All Over India</span>
+              <span className="block text-orange mt-2">Nationwide Services</span>
             </h1>
             
             <p className="text-xl text-white/90 font-lato mb-8 leading-relaxed">
-              Making your relocation stress-free across India with our expert packing, secure transportation, 
-              and professional moving services. From local moves to interstate relocations - trust us for a seamless moving experience.
+              Your trusted partner for stress-free relocations across India. We provide expert packing, 
+              secure transportation, and professional moving services from local moves to interstate relocations.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -80,8 +79,8 @@ const Hero = () => {
           <div className="hidden lg:block">
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/5025639/pexels-photo-5025639.jpeg" 
-                alt="Professional moving and logistics concept"
+                src="https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg" 
+                alt="Professional moving services"
                 className="rounded-2xl shadow-2xl w-full max-w-4xl mx-auto"
               />
             </div>
