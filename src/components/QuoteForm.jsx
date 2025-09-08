@@ -103,7 +103,7 @@ const QuoteForm = () => {
             </div>
           </div>
 
-          <div className="bg-blue-75 border border-blue-50 p-8 rounded-xl">
+          <div className="bg-white border border-gray-200 p-8 rounded-xl shadow-lg">
             <h3 className="text-2xl font-oswald font-bold text-navy mb-4">
               Request Your Free Quote
             </h3>
