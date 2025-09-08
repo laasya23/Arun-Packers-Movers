@@ -28,8 +28,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-6xl font-inter font-bold text-white mb-6 leading-tight">
-              <span className="text-orange">Professional Moving</span>
-              <span className="block mt-2">Services Across India</span>
+              <span className="text-orange">Professional Moving Services Across India</span>
             </h1>
             
             <p className="text-xl text-white/90 font-lato mb-8 leading-relaxed">
