@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-navy/90"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-6xl font-inter font-bold text-white mb-6 leading-tight">
@@ -73,6 +73,31 @@ const Hero = () => {
                   <Users className="text-white" size={24} />
                 </div>
                 <p className="text-white font-lato font-medium">Expert Team</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="hidden lg:block">
+            <div className="relative">
+              <img 
+                src="https://images.pexels.com/photos/7464230/pexels-photo-7464230.jpeg" 
+                alt="Professional moving team with truck"
+                className="rounded-2xl shadow-2xl w-full max-w-lg mx-auto"
+              />
+              
+              {/* Floating elements for visual interest */}
+              <div className="absolute -top-6 -right-6 bg-orange text-white p-4 rounded-xl shadow-lg">
+                <div className="text-center">
+                  <div className="text-2xl font-inter font-bold">24/7</div>
+                  <div className="text-sm font-lato">Support</div>
+                </div>
+              </div>
+              
+              <div className="absolute -bottom-6 -left-6 bg-white text-navy p-4 rounded-xl shadow-lg">
+                <div className="text-center">
+                  <div className="text-2xl font-inter font-bold text-orange">100%</div>
+                  <div className="text-sm font-lato">Safe</div>
+                </div>
               </div>
             </div>
           </div>
