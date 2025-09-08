@@ -6,7 +6,7 @@ export default {
       colors: {
         'navy': '#003366',
         'navy-light': '#004080',
-        'subtle-blue': '#f8fafc',
+        'subtle-blue': '#d2e5f6',
         'orange': '#FF6600',
         'charcoal': '#333333',
       },
