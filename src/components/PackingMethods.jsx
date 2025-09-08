@@ -49,7 +49,7 @@ const PackingMethods = () => {
   ];
 
   return (
-    <section id="packing" className="py-20 bg-white">
+    <section id="packing" className="py-20 bg-subtle-blue">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-oswald font-bold text-navy mb-6">
@@ -86,6 +86,7 @@ const PackingMethods = () => {
             </div>
 
             <div className="mt-8 p-6 bg-gray-50 rounded-lg">
+            <div className="mt-8 p-6 bg-white rounded-lg shadow-sm">
               <h4 className="font-opensans font-semibold text-navy mb-3">
                 Quality Guarantee
               </h4>

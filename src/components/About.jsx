@@ -10,7 +10,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-subtle-blue">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
@@ -83,7 +83,7 @@ const About = () => {
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="bg-orange/20 rounded-full p-6 mx-auto w-20 h-20 flex items-center justify-center mb-4">
+              <div className="bg-white rounded-full p-6 mx-auto w-20 h-20 flex items-center justify-center mb-4 shadow-sm">
                 <stat.icon className="text-orange" size={32} />
               </div>
               <h3 className="text-3xl font-oswald font-bold text-navy mb-2">{stat.number}</h3>
