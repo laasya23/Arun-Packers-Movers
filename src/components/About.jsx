@@ -25,7 +25,7 @@ const About = () => {
               thousands of families and businesses.
             </p>
 
-            <p className="text-charcoal font-opensans text-lg mb-8 leading-relaxed">
+            <p className="text-light-charcoal font-opensans text-lg mb-8 leading-relaxed">
               We understand that moving can be stressful, which is why we offer comprehensive 
               services designed to make your relocation as smooth as possible. From careful 
               packing to secure transportation and timely delivery, we handle every aspect 
@@ -39,7 +39,7 @@ const About = () => {
                 </div>
                 <div>
                   <h4 className="font-opensans font-semibold text-navy mb-1">Licensed & Insured</h4>
-                  <p className="text-charcoal font-opensans">Fully licensed and insured for your peace of mind</p>
+                  <p className="text-text-gray font-opensans">Fully licensed and insured for your peace of mind</p>
                 </div>
               </div>
 
@@ -49,7 +49,7 @@ const About = () => {
                 </div>
                 <div>
                   <h4 className="font-opensans font-semibold text-navy mb-1">Expert Team</h4>
-                  <p className="text-charcoal font-opensans">Skilled professionals trained in safe handling</p>
+                  <p className="text-text-gray font-opensans">Skilled professionals trained in safe handling</p>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ const About = () => {
                 </div>
                 <div>
                   <h4 className="font-opensans font-semibold text-navy mb-1">Modern Fleet</h4>
-                  <p className="text-charcoal font-opensans">Well-maintained trucks equipped for safe transport</p>
+                  <p className="text-text-gray font-opensans">Well-maintained trucks equipped for safe transport</p>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ const About = () => {
                 <stat.icon className="text-orange" size={32} />
               </div>
               <h3 className="text-3xl font-oswald font-bold text-navy mb-2">{stat.number}</h3>
-              <p className="text-charcoal font-opensans font-medium">{stat.label}</p>
+              <p className="text-light-charcoal font-opensans font-medium">{stat.label}</p>
             </div>
           ))}
         </div>

@@ -55,7 +55,7 @@ const PackingMethods = () => {
           <h2 className="text-4xl font-oswald font-bold text-navy mb-6">
             Our Professional Packing Methods
           </h2>
-          <p className="text-xl text-charcoal font-opensans max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-light-charcoal font-opensans max-w-3xl mx-auto leading-relaxed">
             We use industry-leading packing techniques and premium materials to ensure 
             your belongings arrive safely at their destination.
           </p>
@@ -77,7 +77,7 @@ const PackingMethods = () => {
                     <h4 className="font-opensans font-semibold text-navy mb-2">
                       {material.name}
                     </h4>
-                    <p className="text-charcoal font-opensans leading-relaxed">
+                    <p className="text-text-gray font-opensans leading-relaxed">
                       {material.description}
                     </p>
                   </div>
@@ -90,10 +90,11 @@ const PackingMethods = () => {
               <h4 className="font-opensans font-semibold text-navy mb-3">
                 Quality Guarantee
               </h4>
-              <p className="text-charcoal font-opensans">
+              <p className="text-text-gray font-opensans">
                 We use only premium-grade materials and proven packing techniques 
                 developed over years of experience. Your satisfaction is our priority.
               </p>
+            </div>
             </div>
           </div>
 
@@ -122,7 +123,7 @@ const PackingMethods = () => {
                   <h4 className="text-xl font-oswald font-bold text-navy mb-4">
                     {step.title}
                   </h4>
-                  <p className="text-charcoal font-opensans leading-relaxed">
+                  <p className="text-text-gray font-opensans leading-relaxed">
                     {step.description}
                   </p>
                 </div>
@@ -150,7 +151,7 @@ const PackingMethods = () => {
             </p>
             <button 
               onClick={() => document.getElementById('quote').scrollIntoView({ behavior: 'smooth' })}
-              className="bg-orange text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-orange/90 transition-colors duration-200"
+              className="bg-orange text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-dark-orange transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               Request Packing Service
             </button>

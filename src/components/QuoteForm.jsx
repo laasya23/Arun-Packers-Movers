@@ -110,7 +110,7 @@ const QuoteForm = () => {
 
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-charcoal font-opensans font-medium mb-2">
+                <label htmlFor="name" className="block text-light-charcoal font-opensans font-medium mb-2">
                   Full Name *
                 </label>
                 <div className="relative">
@@ -129,7 +129,7 @@ const QuoteForm = () => {
               </div>
 
               <div>
-                <label htmlFor="phone" className="block text-charcoal font-opensans font-medium mb-2">
+                <label htmlFor="phone" className="block text-light-charcoal font-opensans font-medium mb-2">
                   Phone Number *
                 </label>
                 <div className="relative">
@@ -148,7 +148,7 @@ const QuoteForm = () => {
               </div>
 
               <div>
-                <label htmlFor="fromAddress" className="block text-charcoal font-opensans font-medium mb-2">
+                <label htmlFor="fromAddress" className="block text-light-charcoal font-opensans font-medium mb-2">
                   Moving From *
                 </label>
                 <div className="relative">
@@ -167,7 +167,7 @@ const QuoteForm = () => {
               </div>
 
               <div>
-                <label htmlFor="toAddress" className="block text-charcoal font-opensans font-medium mb-2">
+                <label htmlFor="toAddress" className="block text-light-charcoal font-opensans font-medium mb-2">
                   Moving To *
                 </label>
                 <div className="relative">
@@ -188,7 +188,7 @@ const QuoteForm = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-orange text-white py-4 rounded-lg font-opensans font-semibold text-lg hover:bg-orange/90 transition-colors duration-200 disabled:opacity-50"
+                className="w-full bg-orange text-white py-4 rounded-lg font-opensans font-semibold text-lg hover:bg-dark-orange transition-colors duration-200 disabled:opacity-50 shadow-lg hover:shadow-xl"
               >
                 {isSubmitting ? 'Submitting...' : 'Get Free Quote'}
               </button>
@@ -207,7 +207,7 @@ const QuoteForm = () => {
             </form>
 
             <div className="text-center mt-6 pt-6 border-t border-gray-200">
-              <p className="text-charcoal font-opensans mb-2">
+              <p className="text-light-charcoal font-opensans mb-2">
                 Need immediate assistance?
               </p>
               <a 

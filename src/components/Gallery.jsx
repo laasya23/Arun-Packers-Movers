@@ -35,13 +35,13 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="py-20 bg-light-gray">
+    <section id="gallery" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-oswald font-bold text-navy mb-6">
             Our Work in Action
           </h2>
-          <p className="text-xl text-charcoal font-opensans max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-light-charcoal font-opensans max-w-3xl mx-auto leading-relaxed">
             Take a look at our professional team in action. These images showcase our 
             commitment to quality service and careful handling of your belongings.
           </p>
@@ -73,24 +73,24 @@ const Gallery = () => {
         </div>
 
         <div className="text-center mt-12">
-          <div className="bg-white p-8 rounded-xl shadow-lg max-w-2xl mx-auto">
+          <div className="bg-card-gray p-8 rounded-xl shadow-lg max-w-2xl mx-auto border border-border-gray">
             <h3 className="text-2xl font-oswald font-bold text-navy mb-4">
               Experience the Difference
             </h3>
-            <p className="text-charcoal font-opensans text-lg mb-6">
+            <p className="text-light-charcoal font-opensans text-lg mb-6">
               Our professional approach and attention to detail set us apart. 
               Let us make your next move a stress-free experience.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => document.getElementById('quote').scrollIntoView({ behavior: 'smooth' })}
-                className="bg-orange text-white px-6 py-3 rounded-lg font-opensans font-semibold hover:bg-orange/90 transition-colors duration-200"
+                className="bg-orange text-white px-6 py-3 rounded-lg font-opensans font-semibold hover:bg-dark-orange transition-colors duration-200 shadow-lg hover:shadow-xl"
               >
                 Get Your Quote
               </button>
               <a 
                 href="tel:+919739913248"
-                className="border-2 border-navy text-navy px-6 py-3 rounded-lg font-opensans font-semibold hover:bg-navy hover:text-white transition-colors duration-200 text-center"
+                className="border-2 border-navy text-navy px-6 py-3 rounded-lg font-opensans font-semibold hover:bg-navy hover:text-white transition-colors duration-200 text-center shadow-lg hover:shadow-xl"
               >
                 Call Now
               </a>

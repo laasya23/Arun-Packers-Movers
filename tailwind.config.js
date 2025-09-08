@@ -4,14 +4,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        'navy': '#a3c8ec',
+        'navy': '#1e3a8a',
+        'dark-navy': '#1e2a4a',
+        'light-navy': '#3b82f6',
         'orange': '#FF6600',
+        'dark-orange': '#e55a00',
         'charcoal': '#333333',
-        'blue-25': '#f8f9fa',
-        'blue-50': '#f0f4ff',
-        'blue-75': '#e6f0ff',
-        'light-gray': '#f8f9fa',
-        'warm-gray': '#fafbfc',
+        'light-charcoal': '#4a5568',
+        'professional-gray': '#f7fafc',
+        'card-gray': '#ffffff',
+        'border-gray': '#e2e8f0',
+        'text-gray': '#64748b',
       },
       fontFamily: {
         'oswald': ['Oswald', 'sans-serif'],

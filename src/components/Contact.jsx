@@ -42,7 +42,7 @@ const Contact = () => {
           <h2 className="text-4xl font-oswald font-bold text-navy mb-6">
             Get In Touch With Us
           </h2>
-          <p className="text-xl text-charcoal font-opensans max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-light-charcoal font-opensans max-w-3xl mx-auto leading-relaxed">
             Ready to plan your move? Contact us today for a free consultation and quote. 
             We're here to make your relocation smooth and stress-free.
           </p>
@@ -55,7 +55,7 @@ const Contact = () => {
               href={info.action}
               target={info.action.startsWith('http') ? '_blank' : '_self'}
               rel={info.action.startsWith('http') ? 'noopener noreferrer' : ''}
-              className="bg-white p-6 rounded-xl border border-gray-100 hover:bg-orange hover:text-white transition-colors duration-300 group shadow-sm hover:shadow-md"
+             className="bg-card-gray p-6 rounded-xl border border-border-gray hover:bg-orange hover:text-white transition-colors duration-300 group shadow-lg hover:shadow-xl"
             >
               <div className="flex items-start gap-4">
                 <div className="bg-orange group-hover:bg-white rounded-full p-3">
@@ -65,7 +65,7 @@ const Contact = () => {
                   <h3 className="font-oswald font-bold text-navy group-hover:text-white mb-2">
                     {info.title}
                   </h3>
-                  <p className="text-charcoal group-hover:text-white font-opensans">
+                  <p className="text-light-charcoal group-hover:text-white font-opensans">
                     {info.details}
                   </p>
                 </div>
@@ -76,7 +76,7 @@ const Contact = () => {
 
         <div className="grid lg:grid-cols-2 gap-16">
           {/* Working Hours */}
-          <div className="bg-navy text-white p-8 rounded-xl">
+          <div className="bg-navy text-white p-8 rounded-xl shadow-lg">
             <div className="flex items-center gap-3 mb-6">
               <Clock className="text-orange" size={28} />
               <h3 className="text-2xl font-oswald font-bold">
@@ -119,26 +119,25 @@ const Contact = () => {
                 'Whitefield', 'Indiranagar', 'Jayanagar', 'Malleshwaram',
                 'Rajajinagar', 'Hebbal', 'Marathahalli', 'Bellandur'
               ].map((area, index) => (
-                <div key={index} className="bg-white p-3 rounded-lg text-center border border-gray-100">
-                  <span className="font-opensans text-charcoal font-medium">
+                <div key={index} className="bg-card-gray p-3 rounded-lg text-center border border-border-gray shadow-sm">
+                  <span className="font-opensans text-light-charcoal font-medium">
                     {area}
                   </span>
                 </div>
               ))}
             </div>
 
-            <div className="bg-orange/20 p-6 rounded-lg">
             <div className="bg-orange/10 p-6 rounded-lg border border-orange/20">
               <h4 className="font-oswald font-bold text-navy mb-3">
                 Don't See Your Area?
               </h4>
-              <p className="font-opensans text-charcoal mb-4">
+              <p className="font-opensans text-light-charcoal mb-4">
                 We serve the entire Bengaluru metropolitan area and surrounding regions. 
                 Contact us to confirm service availability in your location.
               </p>
               <a 
                 href="tel:+919739913248"
-                className="inline-flex items-center gap-2 bg-orange text-white px-4 py-2 rounded-lg font-opensans font-medium hover:bg-orange/90 transition-colors duration-200"
+                className="inline-flex items-center gap-2 bg-orange text-white px-4 py-2 rounded-lg font-opensans font-medium hover:bg-dark-orange transition-colors duration-200 shadow-lg hover:shadow-xl"
               >
                 <Phone size={18} />
                 Call Now
@@ -148,18 +147,17 @@ const Contact = () => {
         </div>
 
         {/* Quick Contact Strip */}
-        <div className="mt-16 bg-gray-50 p-8 rounded-xl text-center">
-        <div className="mt-16 bg-white p-8 rounded-xl text-center border border-gray-100 shadow-sm">
+        <div className="mt-16 bg-card-gray p-8 rounded-xl text-center border border-border-gray shadow-lg">
           <h3 className="text-2xl font-oswald font-bold text-navy mb-4">
             Ready to Move?
           </h3>
-          <p className="text-charcoal font-opensans text-lg mb-6">
+          <p className="text-light-charcoal font-opensans text-lg mb-6">
             Contact us now for immediate assistance or to schedule your move.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="tel:+919739913248"
-              className="bg-navy text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-navy/90 transition-colors duration-200 flex items-center justify-center gap-2"
+              className="bg-navy text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-dark-navy transition-colors duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
             >
               <Phone size={20} />
               Call: +91 97399 13248
@@ -168,14 +166,14 @@ const Contact = () => {
               href="https://wa.me/919876543210?text=Hi%2C%20I%20need%20help%20with%20my%20move"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-600 text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-green-700 transition-colors duration-200 flex items-center justify-center gap-2"
+              className="bg-green-600 text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-green-700 transition-colors duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
             >
               <MessageCircle size={20} />
               WhatsApp Chat
             </a>
             <button 
               onClick={() => document.getElementById('quote').scrollIntoView({ behavior: 'smooth' })}
-              className="bg-orange text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-orange/90 transition-colors duration-200"
+              className="bg-orange text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-dark-orange transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               Get Quote
             </button>
