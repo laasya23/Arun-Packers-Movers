@@ -225,5 +225,3 @@ const QuoteForm = () => {
 };
 
 export default QuoteForm;
-  )
-}
