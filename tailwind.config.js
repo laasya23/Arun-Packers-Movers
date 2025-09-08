@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'navy': '#003366',
+        'navy': '#a4d4ff',
         'orange': '#FF6600',
         'charcoal': '#333333',
         'blue-25': '#f0f8ff',
