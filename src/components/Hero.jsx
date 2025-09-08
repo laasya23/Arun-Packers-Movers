@@ -82,23 +82,8 @@ const Hero = () => {
               <img 
                 src="https://images.pexels.com/photos/7464230/pexels-photo-7464230.jpeg" 
                 alt="Professional moving team with truck"
-                className="rounded-2xl shadow-2xl w-full max-w-lg mx-auto"
+                className="rounded-2xl shadow-2xl w-full max-w-2xl mx-auto"
               />
-              
-              {/* Floating elements for visual interest */}
-              <div className="absolute -top-6 -right-6 bg-orange text-white p-4 rounded-xl shadow-lg">
-                <div className="text-center">
-                  <div className="text-2xl font-inter font-bold">24/7</div>
-                  <div className="text-sm font-lato">Support</div>
-                </div>
-              </div>
-              
-              <div className="absolute -bottom-6 -left-6 bg-white text-navy p-4 rounded-xl shadow-lg">
-                <div className="text-center">
-                  <div className="text-2xl font-inter font-bold text-orange">100%</div>
-                  <div className="text-sm font-lato">Safe</div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
