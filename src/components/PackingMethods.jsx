@@ -95,6 +95,7 @@ const PackingMethods = () => {
                 developed over years of experience. Your satisfaction is our priority.
               </p>
             </div>
+            </div>
           </div>
 
           <div>
