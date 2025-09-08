@@ -10,7 +10,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center">
+    <section id="hero" className="relative min-h-screen flex items-center bg-navy">
       {/* Background Image */}
       <div 
         className="absolute inset-0 z-0"
@@ -21,7 +21,7 @@ const Hero = () => {
           backgroundRepeat: 'no-repeat'
         }}
       >
-        <div className="absolute inset-0 bg-navy/70"></div>
+        <div className="absolute inset-0 bg-navy/90"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
