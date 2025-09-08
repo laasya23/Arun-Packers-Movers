@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         'navy': '#003366',
+        'navy-light': '#004080',
         'orange': '#FF6600',
         'charcoal': '#333333',
       },
