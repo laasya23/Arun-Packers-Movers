@@ -5,10 +5,11 @@ export default {
     extend: {
       colors: {
         'navy': '#003366',
-        'navy-light': '#f0f4ff',
-        'subtle-blue': '#fafbff',
         'orange': '#FF6600',
         'charcoal': '#333333',
+        'blue-25': '#fafbff',
+        'blue-50': '#f0f4ff',
+        'blue-75': '#e6f0ff',
       },
       fontFamily: {
         'oswald': ['Oswald', 'sans-serif'],
