@@ -8,7 +8,7 @@ export default {
         'navy-light': '#004080',
         'orange': '#FF6600',
         'charcoal': '#333333',
-        'light blue':'#87CEFA',
+        'light blue':'#B9D9EB',
       },
       fontFamily: {
         'oswald': ['Oswald', 'sans-serif'],
