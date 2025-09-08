@@ -79,8 +79,8 @@ const Hero = () => {
           <div className="hidden lg:block">
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg" 
-                alt="Road transport and moving services"
+                src="https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg" 
+                alt="Professional moving and packing services"
                 className="rounded-2xl shadow-2xl w-full max-w-4xl mx-auto"
               />
             </div>
