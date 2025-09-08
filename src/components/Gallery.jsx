@@ -35,7 +35,7 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="py-20 bg-white">
+    <section id="gallery" className="py-20 bg-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-oswald font-bold text-navy mb-6">
@@ -73,7 +73,7 @@ const Gallery = () => {
         </div>
 
         <div className="text-center mt-12">
-          <div className="bg-subtle-blue p-8 rounded-xl shadow-sm max-w-2xl mx-auto border border-white/50">
+          <div className="bg-white p-8 rounded-xl shadow-lg max-w-2xl mx-auto">
             <h3 className="text-2xl font-oswald font-bold text-navy mb-4">
               Experience the Difference
             </h3>
