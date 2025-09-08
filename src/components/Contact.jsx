@@ -110,14 +110,14 @@ const Contact = () => {
           {/* Service Areas */}
           <div>
             <h3 className="text-2xl font-inter font-bold text-navy mb-6">
-              Areas We Serve
+              Major Cities We Serve
             </h3>
             
             <div className="grid grid-cols-2 gap-4 mb-8">
               {[
-                'HSR Layout', 'Koramangala', 'BTM Layout', 'Electronic City',
-                'Whitefield', 'Indiranagar', 'Jayanagar', 'Malleshwaram',
-                'Rajajinagar', 'Hebbal', 'Marathahalli', 'Bellandur'
+                'Bengaluru', 'Mumbai', 'Delhi', 'Chennai',
+                'Hyderabad', 'Pune', 'Kolkata', 'Ahmedabad',
+                'Kochi', 'Coimbatore', 'Mysore', 'Mangalore'
               ].map((area, index) => (
                 <div key={index} className="bg-card-gray p-3 rounded-lg text-center border border-border-gray shadow-sm">
                   <span className="font-lato text-light-charcoal font-medium">
@@ -129,10 +129,10 @@ const Contact = () => {
 
             <div className="bg-orange/10 p-6 rounded-lg border border-orange/20">
               <h4 className="font-inter font-bold text-navy mb-3">
-                Don't See Your Area?
+                Don't See Your City?
               </h4>
               <p className="font-lato text-light-charcoal mb-4">
-                We serve the entire Bengaluru metropolitan area and surrounding regions. 
+                We provide moving services across all major cities and towns in India. 
                 Contact us to confirm service availability in your location.
               </p>
               <a 

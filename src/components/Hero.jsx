@@ -30,13 +30,13 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-inter font-bold text-white mb-6 leading-tight">
               
               <span className="text-orange">Arun Packers </span>
-              & Movers in
-              <span className="text-orange"> Bengaluru</span>
+              & Movers
+              <span className="text-orange"> All Over India</span>
             </h1>
             
             <p className="text-xl text-white/90 font-lato mb-8 leading-relaxed">
-              Making your relocation stress-free with our expert packing, secure transportation, 
-              and professional moving services. Trust us for a seamless moving experience.
+              Making your relocation stress-free across India with our expert packing, secure transportation, 
+              and professional moving services. From local moves to interstate relocations - trust us for a seamless moving experience.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">

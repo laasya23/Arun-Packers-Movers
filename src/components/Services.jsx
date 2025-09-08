@@ -6,20 +6,20 @@ const Services = () => {
     {
       icon: Home,
       title: 'Residential Moving',
-      description: 'Complete household relocation services with careful handling of your belongings.',
-      features: ['Furniture disassembly/assembly', 'Fragile item protection', 'Room-to-room unpacking']
+      description: 'Complete household relocation services across India with careful handling of your belongings.',
+      features: ['Interstate & local moves', 'Furniture disassembly/assembly', 'Fragile item protection', 'Room-to-room unpacking']
     },
     {
       icon: Building,
       title: 'Office Relocation',
-      description: 'Professional office moving services with minimal business disruption.',
-      features: ['IT equipment handling', 'Document management', 'Weekend/after-hours moving']
+      description: 'Professional office moving services across India with minimal business disruption.',
+      features: ['Pan-India office moves', 'IT equipment handling', 'Document management', 'Weekend/after-hours moving']
     },
     {
       icon: Car,
       title: 'Vehicle Transportation',
-      description: 'Safe and secure transportation of cars and bikes to your destination.',
-      features: ['Door-to-door service', 'Insurance coverage', 'GPS tracking']
+      description: 'Safe and secure transportation of cars and bikes anywhere in India.',
+      features: ['All India car transport', 'Door-to-door service', 'Insurance coverage', 'GPS tracking']
     },
     {
       icon: Package,

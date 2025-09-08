@@ -6,7 +6,7 @@ const About = () => {
     { icon: Users2, number: '5000+', label: 'Happy Customers' },
     { icon: Truck, number: '50+', label: 'Moving Trucks' },
     { icon: Award, number: '10+', label: 'Years Experience' },
-    { icon: MapPin, number: '100+', label: 'Cities Covered' }
+    { icon: MapPin, number: '500+', label: 'Cities Covered' }
   ];
 
   return (
@@ -15,21 +15,21 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl font-inter font-bold text-navy mb-6">
-              About Arun Packers & Movers Bengaluru
+              About Arun Packers & Movers India
             </h2>
             
             <p className="text-charcoal font-lato text-lg mb-6 leading-relaxed">
               With over a decade of experience in the moving industry, we have established 
-              ourselves as Bengaluru's most trusted packers and movers. Our commitment to 
+              ourselves as India's most trusted packers and movers. Our commitment to 
               excellence and customer satisfaction has made us the preferred choice for 
               thousands of families and businesses.
             </p>
 
             <p className="text-light-charcoal font-lato text-lg mb-8 leading-relaxed">
               We understand that moving can be stressful, which is why we offer comprehensive 
-              services designed to make your relocation as smooth as possible. From careful 
+              services designed to make your relocation as smooth as possible across India. From careful 
               packing to secure transportation and timely delivery, we handle every aspect 
-              of your move with professional expertise.
+              of your move with professional expertise - whether it's within the city or across states.
             </p>
 
             <div className="space-y-4">

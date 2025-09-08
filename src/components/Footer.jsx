@@ -21,8 +21,8 @@ const Footer = () => {
               Arun Packers & Movers
             </h3>
             <p className="font-lato text-white/80 mb-6 leading-relaxed">
-              Your trusted partner for all moving and relocation needs in Bengaluru. 
-              Professional, reliable, and committed to excellence.
+              Your trusted partner for all moving and relocation needs across India. 
+              Professional, reliable, and committed to excellence nationwide.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white/60 hover:text-orange transition-colors duration-200">
