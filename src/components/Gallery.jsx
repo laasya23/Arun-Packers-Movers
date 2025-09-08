@@ -73,7 +73,7 @@ const Gallery = () => {
         </div>
 
         <div className="text-center mt-12">
-          <div className="bg-card-gray p-8 rounded-xl shadow-lg max-w-2xl mx-auto border border-border-gray">
+          <div className="bg-white p-8 rounded-xl shadow-lg max-w-2xl mx-auto border border-gray-200">
             <h3 className="text-2xl font-oswald font-bold text-navy mb-4">
               Experience the Difference
             </h3>

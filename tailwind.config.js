@@ -11,7 +11,7 @@ export default {
         'dark-orange': '#e55a00',
         'charcoal': '#333333',
         'light-charcoal': '#4a5568',
-        'professional-gray': '#f7fafc',
+        'professional-gray': '#fafafa',
         'card-gray': '#ffffff',
         'border-gray': '#e2e8f0',
         'text-gray': '#64748b',
