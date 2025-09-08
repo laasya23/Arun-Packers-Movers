@@ -39,10 +39,10 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-oswald font-bold text-navy mb-6">
+          <h2 className="text-4xl font-inter font-bold text-navy mb-6">
             Get In Touch With Us
           </h2>
-          <p className="text-xl text-light-charcoal font-opensans max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-light-charcoal font-lato max-w-3xl mx-auto leading-relaxed">
             Ready to plan your move? Contact us today for a free consultation and quote. 
             We're here to make your relocation smooth and stress-free.
           </p>
@@ -62,10 +62,10 @@ const Contact = () => {
                   <info.icon className="text-white group-hover:text-orange" size={24} />
                 </div>
                 <div>
-                  <h3 className="font-oswald font-bold text-navy group-hover:text-white mb-2">
+                  <h3 className="font-inter font-bold text-navy group-hover:text-white mb-2">
                     {info.title}
                   </h3>
-                  <p className="text-light-charcoal group-hover:text-white font-opensans">
+                  <p className="text-light-charcoal group-hover:text-white font-lato">
                     {info.details}
                   </p>
                 </div>
@@ -79,7 +79,7 @@ const Contact = () => {
           <div className="bg-navy text-white p-8 rounded-xl shadow-lg">
             <div className="flex items-center gap-3 mb-6">
               <Clock className="text-orange" size={28} />
-              <h3 className="text-2xl font-oswald font-bold">
+              <h3 className="text-2xl font-inter font-bold">
                 Working Hours
               </h3>
             </div>
@@ -87,10 +87,10 @@ const Contact = () => {
             <div className="space-y-4">
               {workingHours.map((schedule, index) => (
                 <div key={index} className="flex justify-between items-center">
-                  <span className="font-opensans font-medium">
+                  <span className="font-lato font-medium">
                     {schedule.day}
                   </span>
-                  <span className="font-opensans text-orange">
+                  <span className="font-lato text-orange">
                     {schedule.hours}
                   </span>
                 </div>
@@ -98,10 +98,10 @@ const Contact = () => {
             </div>
 
             <div className="mt-8 p-4 bg-white/10 rounded-lg">
-              <h4 className="font-opensans font-semibold mb-2">
+              <h4 className="font-lato font-semibold mb-2">
                 Emergency Services
               </h4>
-              <p className="font-opensans text-sm text-white/80">
+              <p className="font-lato text-sm text-white/80">
                 24/7 emergency moving services available for urgent relocations.
               </p>
             </div>
@@ -109,7 +109,7 @@ const Contact = () => {
 
           {/* Service Areas */}
           <div>
-            <h3 className="text-2xl font-oswald font-bold text-navy mb-6">
+            <h3 className="text-2xl font-inter font-bold text-navy mb-6">
               Areas We Serve
             </h3>
             
@@ -120,7 +120,7 @@ const Contact = () => {
                 'Rajajinagar', 'Hebbal', 'Marathahalli', 'Bellandur'
               ].map((area, index) => (
                 <div key={index} className="bg-card-gray p-3 rounded-lg text-center border border-border-gray shadow-sm">
-                  <span className="font-opensans text-light-charcoal font-medium">
+                  <span className="font-lato text-light-charcoal font-medium">
                     {area}
                   </span>
                 </div>
@@ -128,16 +128,16 @@ const Contact = () => {
             </div>
 
             <div className="bg-orange/10 p-6 rounded-lg border border-orange/20">
-              <h4 className="font-oswald font-bold text-navy mb-3">
+              <h4 className="font-inter font-bold text-navy mb-3">
                 Don't See Your Area?
               </h4>
-              <p className="font-opensans text-light-charcoal mb-4">
+              <p className="font-lato text-light-charcoal mb-4">
                 We serve the entire Bengaluru metropolitan area and surrounding regions. 
                 Contact us to confirm service availability in your location.
               </p>
               <a 
                 href="tel:+919739913248"
-                className="inline-flex items-center gap-2 bg-orange text-white px-4 py-2 rounded-lg font-opensans font-medium hover:bg-dark-orange transition-colors duration-200 shadow-lg hover:shadow-xl"
+                className="inline-flex items-center gap-2 bg-orange text-white px-4 py-2 rounded-lg font-lato font-medium hover:bg-dark-orange transition-colors duration-200 shadow-lg hover:shadow-xl"
               >
                 <Phone size={18} />
                 Call Now
@@ -148,16 +148,16 @@ const Contact = () => {
 
         {/* Quick Contact Strip */}
         <div className="mt-16 bg-card-gray p-8 rounded-xl text-center border border-border-gray shadow-lg">
-          <h3 className="text-2xl font-oswald font-bold text-navy mb-4">
+          <h3 className="text-2xl font-inter font-bold text-navy mb-4">
             Ready to Move?
           </h3>
-          <p className="text-light-charcoal font-opensans text-lg mb-6">
+          <p className="text-light-charcoal font-lato text-lg mb-6">
             Contact us now for immediate assistance or to schedule your move.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href="tel:+919739913248"
-              className="bg-navy text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-dark-navy transition-colors duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
+              className="bg-navy text-white px-8 py-3 rounded-lg font-lato font-semibold hover:bg-dark-navy transition-colors duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
             >
               <Phone size={20} />
               Call: +91 97399 13248
@@ -166,14 +166,14 @@ const Contact = () => {
               href="https://wa.me/919876543210?text=Hi%2C%20I%20need%20help%20with%20my%20move"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-600 text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-green-700 transition-colors duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
+              className="bg-green-600 text-white px-8 py-3 rounded-lg font-lato font-semibold hover:bg-green-700 transition-colors duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
             >
               <MessageCircle size={20} />
               WhatsApp Chat
             </a>
             <button 
               onClick={() => document.getElementById('quote').scrollIntoView({ behavior: 'smooth' })}
-              className="bg-orange text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-dark-orange transition-colors duration-200 shadow-lg hover:shadow-xl"
+              className="bg-orange text-white px-8 py-3 rounded-lg font-lato font-semibold hover:bg-dark-orange transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               Get Quote
             </button>

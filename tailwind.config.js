@@ -17,8 +17,8 @@ export default {
         'text-gray': '#64748b',
       },
       fontFamily: {
-        'oswald': ['Oswald', 'sans-serif'],
-        'opensans': ['Open Sans', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
+        'lato': ['Lato', 'sans-serif'],
       },
     },
   },

@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <h1 className="text-white font-oswald text-xl font-bold">
+            <h1 className="text-white font-inter text-xl font-bold">
               Arun Packers & Movers
             </h1>
           </div>
@@ -49,14 +49,14 @@ const Navbar = () => {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-white hover:text-orange px-3 py-2 text-sm font-opensans font-medium transition-colors duration-200"
+                  className="text-white hover:text-orange px-3 py-2 text-sm font-lato font-medium transition-colors duration-200"
                 >
                   {item.name}
                 </button>
               ))}
               <button
                 onClick={() => scrollToSection('quote')}
-                className="bg-orange text-white px-4 py-2 rounded-md text-sm font-opensans font-medium hover:bg-orange/90 transition-colors duration-200"
+                className="bg-orange text-white px-4 py-2 rounded-md text-sm font-lato font-medium hover:bg-orange/90 transition-colors duration-200"
               >
                 Get Quote
               </button>
@@ -82,14 +82,14 @@ const Navbar = () => {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-white hover:text-orange block px-3 py-2 text-base font-opensans font-medium w-full text-left"
+                  className="text-white hover:text-orange block px-3 py-2 text-base font-lato font-medium w-full text-left"
                 >
                   {item.name}
                 </button>
               ))}
               <button
                 onClick={() => scrollToSection('quote')}
-                className="bg-orange text-white block px-3 py-2 rounded-md text-base font-opensans font-medium hover:bg-orange/90 w-full text-left"
+                className="bg-orange text-white block px-3 py-2 rounded-md text-base font-lato font-medium hover:bg-orange/90 w-full text-left"
               >
                 Get Quote
               </button>

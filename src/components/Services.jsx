@@ -45,10 +45,10 @@ const Services = () => {
     <section id="services" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-oswald font-bold text-navy mb-6">
+          <h2 className="text-4xl font-inter font-bold text-navy mb-6">
             Our Professional Services
           </h2>
-          <p className="text-xl text-light-charcoal font-opensans max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-light-charcoal font-lato max-w-3xl mx-auto leading-relaxed">
             We offer comprehensive moving solutions tailored to meet your specific needs. 
             From residential moves to commercial relocations, we have you covered.
           </p>
@@ -61,11 +61,11 @@ const Services = () => {
                 <service.icon className="text-orange" size={28} />
               </div>
               
-              <h3 className="text-xl font-oswald font-bold text-navy mb-4">
+              <h3 className="text-xl font-inter font-bold text-navy mb-4">
                 {service.title}
               </h3>
               
-              <p className="text-light-charcoal font-opensans mb-6 leading-relaxed">
+              <p className="text-light-charcoal font-lato mb-6 leading-relaxed">
                 {service.description}
               </p>
 
@@ -73,7 +73,7 @@ const Services = () => {
                 {service.features.map((feature, featureIndex) => (
                   <li key={featureIndex} className="flex items-start gap-2">
                     <div className="w-2 h-2 bg-orange rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-text-gray font-opensans text-sm">{feature}</span>
+                    <span className="text-text-gray font-lato text-sm">{feature}</span>
                   </li>
                 ))}
               </ul>
@@ -82,12 +82,12 @@ const Services = () => {
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-light-charcoal font-opensans text-lg mb-6">
+          <p className="text-light-charcoal font-lato text-lg mb-6">
             Need a custom solution? We're here to help!
           </p>
           <button 
             onClick={() => document.getElementById('quote').scrollIntoView({ behavior: 'smooth' })}
-            className="bg-orange text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-dark-orange transition-colors duration-200 shadow-lg hover:shadow-xl"
+            className="bg-orange text-white px-8 py-3 rounded-lg font-lato font-semibold hover:bg-dark-orange transition-colors duration-200 shadow-lg hover:shadow-xl"
           >
             Get Custom Quote
           </button>

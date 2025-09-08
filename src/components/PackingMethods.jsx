@@ -52,10 +52,10 @@ const PackingMethods = () => {
     <section id="packing" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-oswald font-bold text-navy mb-6">
+          <h2 className="text-4xl font-inter font-bold text-navy mb-6">
             Our Professional Packing Methods
           </h2>
-          <p className="text-xl text-light-charcoal font-opensans max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-light-charcoal font-lato max-w-3xl mx-auto leading-relaxed">
             We use industry-leading packing techniques and premium materials to ensure 
             your belongings arrive safely at their destination.
           </p>
@@ -63,7 +63,7 @@ const PackingMethods = () => {
 
         <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
           <div>
-            <h3 className="text-2xl font-oswald font-bold text-navy mb-8">
+            <h3 className="text-2xl font-inter font-bold text-navy mb-8">
               Premium Packing Materials
             </h3>
             
@@ -74,10 +74,10 @@ const PackingMethods = () => {
                     <material.icon className="text-orange" size={24} />
                   </div>
                   <div>
-                    <h4 className="font-opensans font-semibold text-navy mb-2">
+                    <h4 className="font-lato font-semibold text-navy mb-2">
                       {material.name}
                     </h4>
-                    <p className="text-text-gray font-opensans leading-relaxed">
+                    <p className="text-text-gray font-lato leading-relaxed">
                       {material.description}
                     </p>
                   </div>
@@ -87,10 +87,10 @@ const PackingMethods = () => {
 
             <div className="mt-8 p-6 bg-gray-50 rounded-lg">
             <div className="mt-8 p-6 bg-white/80 rounded-lg border border-gray-100">
-              <h4 className="font-opensans font-semibold text-navy mb-3">
+              <h4 className="font-lato font-semibold text-navy mb-3">
                 Quality Guarantee
               </h4>
-              <p className="text-text-gray font-opensans">
+              <p className="text-text-gray font-lato">
                 We use only premium-grade materials and proven packing techniques 
                 developed over years of experience. Your satisfaction is our priority.
               </p>
@@ -109,7 +109,7 @@ const PackingMethods = () => {
 
         {/* Packing Process */}
         <div>
-          <h3 className="text-2xl font-oswald font-bold text-navy text-center mb-12">
+          <h3 className="text-2xl font-inter font-bold text-navy text-center mb-12">
             Our 4-Step Packing Process
           </h3>
 
@@ -117,13 +117,13 @@ const PackingMethods = () => {
             {steps.map((step, index) => (
               <div key={index} className="relative">
                 <div className="text-center">
-                  <div className="bg-orange text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 font-oswald font-bold text-xl">
+                  <div className="bg-orange text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6 font-inter font-bold text-xl">
                     {step.step}
                   </div>
-                  <h4 className="text-xl font-oswald font-bold text-navy mb-4">
+                  <h4 className="text-xl font-inter font-bold text-navy mb-4">
                     {step.title}
                   </h4>
-                  <p className="text-text-gray font-opensans leading-relaxed">
+                  <p className="text-text-gray font-lato leading-relaxed">
                     {step.description}
                   </p>
                 </div>
@@ -143,15 +143,15 @@ const PackingMethods = () => {
 
         <div className="text-center mt-16">
           <div className="bg-navy text-white p-8 rounded-xl">
-            <h3 className="text-2xl font-oswald font-bold mb-4">
+            <h3 className="text-2xl font-inter font-bold mb-4">
               Professional Packing Service
             </h3>
-            <p className="font-opensans text-lg mb-6">
+            <p className="font-lato text-lg mb-6">
               Let our experts handle the packing while you focus on other important aspects of your move.
             </p>
             <button 
               onClick={() => document.getElementById('quote').scrollIntoView({ behavior: 'smooth' })}
-              className="bg-orange text-white px-8 py-3 rounded-lg font-opensans font-semibold hover:bg-dark-orange transition-colors duration-200 shadow-lg hover:shadow-xl"
+              className="bg-orange text-white px-8 py-3 rounded-lg font-lato font-semibold hover:bg-dark-orange transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               Request Packing Service
             </button>
