@@ -57,20 +57,20 @@ const Hero = () => {
 
             <div className="grid grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="bg-white/10 rounded-full p-4 mx-auto w-16 h-16 flex items-center justify-center mb-3">
-                  <Shield className="text-orange" size={24} />
+                <div className="bg-white/20 backdrop-blur-sm rounded-full p-4 mx-auto w-16 h-16 flex items-center justify-center mb-3 border border-white/30">
+                  <Shield className="text-white" size={24} />
                 </div>
                 <p className="text-white font-opensans font-medium">100% Safe</p>
               </div>
               <div className="text-center">
-                <div className="bg-white/10 rounded-full p-4 mx-auto w-16 h-16 flex items-center justify-center mb-3">
-                  <Clock className="text-orange" size={24} />
+                <div className="bg-white/20 backdrop-blur-sm rounded-full p-4 mx-auto w-16 h-16 flex items-center justify-center mb-3 border border-white/30">
+                  <Clock className="text-white" size={24} />
                 </div>
                 <p className="text-white font-opensans font-medium">On-Time</p>
               </div>
               <div className="text-center">
-                <div className="bg-white/10 rounded-full p-4 mx-auto w-16 h-16 flex items-center justify-center mb-3">
-                  <Users className="text-orange" size={24} />
+                <div className="bg-white/20 backdrop-blur-sm rounded-full p-4 mx-auto w-16 h-16 flex items-center justify-center mb-3 border border-white/30">
+                  <Users className="text-white" size={24} />
                 </div>
                 <p className="text-white font-opensans font-medium">Expert Team</p>
               </div>
