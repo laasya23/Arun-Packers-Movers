@@ -55,7 +55,7 @@ const Contact = () => {
               href={info.action}
               target={info.action.startsWith('http') ? '_blank' : '_self'}
               rel={info.action.startsWith('http') ? 'noopener noreferrer' : ''}
-              className="bg-gray-50 p-6 rounded-xl hover:bg-orange hover:text-white transition-colors duration-300 group"
+              className="bg-white p-6 rounded-xl border border-gray-100 hover:bg-orange hover:text-white transition-colors duration-300 group shadow-sm hover:shadow-md"
             >
               <div className="flex items-start gap-4">
                 <div className="bg-orange group-hover:bg-white rounded-full p-3">
@@ -119,7 +119,7 @@ const Contact = () => {
                 'Whitefield', 'Indiranagar', 'Jayanagar', 'Malleshwaram',
                 'Rajajinagar', 'Hebbal', 'Marathahalli', 'Bellandur'
               ].map((area, index) => (
-                <div key={index} className="bg-gray-50 p-3 rounded-lg text-center">
+                <div key={index} className="bg-white p-3 rounded-lg text-center border border-gray-100">
                   <span className="font-opensans text-charcoal font-medium">
                     {area}
                   </span>
@@ -128,6 +128,7 @@ const Contact = () => {
             </div>
 
             <div className="bg-orange/20 p-6 rounded-lg">
+            <div className="bg-orange/10 p-6 rounded-lg border border-orange/20">
               <h4 className="font-oswald font-bold text-navy mb-3">
                 Don't See Your Area?
               </h4>
@@ -148,6 +149,7 @@ const Contact = () => {
 
         {/* Quick Contact Strip */}
         <div className="mt-16 bg-gray-50 p-8 rounded-xl text-center">
+        <div className="mt-16 bg-white p-8 rounded-xl text-center border border-gray-100 shadow-sm">
           <h3 className="text-2xl font-oswald font-bold text-navy mb-4">
             Ready to Move?
           </h3>

@@ -70,7 +70,7 @@ const PackingMethods = () => {
             <div className="space-y-6">
               {materials.map((material, index) => (
                 <div key={index} className="flex items-start gap-4">
-                  <div className="bg-orange/20 rounded-full p-3 flex-shrink-0">
+                  <div className="bg-orange/10 rounded-full p-3 flex-shrink-0">
                     <material.icon className="text-orange" size={24} />
                   </div>
                   <div>
@@ -86,6 +86,7 @@ const PackingMethods = () => {
             </div>
 
             <div className="mt-8 p-6 bg-gray-50 rounded-lg">
+            <div className="mt-8 p-6 bg-white/80 rounded-lg border border-gray-100">
               <h4 className="font-opensans font-semibold text-navy mb-3">
                 Quality Guarantee
               </h4>

@@ -34,7 +34,7 @@ const About = () => {
 
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <div className="bg-orange/20 rounded-full p-2">
+                <div className="bg-orange/10 rounded-full p-2">
                   <Award className="text-orange" size={20} />
                 </div>
                 <div>
@@ -44,7 +44,7 @@ const About = () => {
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="bg-orange/20 rounded-full p-2">
+                <div className="bg-orange/10 rounded-full p-2">
                   <Users2 className="text-orange" size={20} />
                 </div>
                 <div>
@@ -54,7 +54,7 @@ const About = () => {
               </div>
 
               <div className="flex items-start gap-3">
-                <div className="bg-orange/20 rounded-full p-2">
+                <div className="bg-orange/10 rounded-full p-2">
                   <Truck className="text-orange" size={20} />
                 </div>
                 <div>
@@ -83,7 +83,7 @@ const About = () => {
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="bg-orange/20 rounded-full p-6 mx-auto w-20 h-20 flex items-center justify-center mb-4">
+              <div className="bg-orange/10 rounded-full p-6 mx-auto w-20 h-20 flex items-center justify-center mb-4">
                 <stat.icon className="text-orange" size={32} />
               </div>
               <h3 className="text-3xl font-oswald font-bold text-navy mb-2">{stat.number}</h3>
