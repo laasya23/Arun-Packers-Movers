@@ -7,7 +7,7 @@ export default {
         'navy': '#a3c8ec',/*'#b3d2ef',*/
         'orange': '#FF6600',
         'charcoal': '#333333',
-        'blue-25': '#d2e5f6',
+        'blue-25': '#fefeff',
         'blue-50': '#f0f4ff',
         'blue-75': '#e6f0ff',
       },
